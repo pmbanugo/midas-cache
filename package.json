@@ -1,0 +1,15 @@
+{
+  "name": "@pmbanugo/midas-cache",
+  "author": "Peter Mbanugo (@pmbanugo)",
+  "type": "module",
+  "module": "src/index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "lmdb": "^3.0.13"
+  }
+}
