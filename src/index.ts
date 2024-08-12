@@ -1,6 +1,5 @@
 import { Database, open } from "lmdb";
 
-// Types and interfaces
 export type HandleFunction = (request: Request) => Promise<Response> | Response;
 export type CacheMiddleware = (
   request: Request,
@@ -101,7 +100,6 @@ export function createCacheMiddleware(options: CacheOptions): CacheMiddleware {
   };
 }
 
-// Helper functions
 function isCacheableRequest(request: Request): boolean {
   return request.method === "GET" || request.method === "HEAD";
 }
