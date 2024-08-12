@@ -2,7 +2,7 @@
 
 **midas-cache** is a caching middleware that can boost your apps by 70% - 95%. It reduces the response time and increases the number of requests your server can handle. It's intended for use on the server, for server-side rendered apps (e.g. blogs) and regular REST API.
 
-It currently only works with Bun (manually tested ATM), but might work with Deno since because it uses the web platform [Request](https://developer.mozilla.org/en-US/docs/Web/API/Request)/[Response](https://developer.mozilla.org/en-US/docs/Web/API/Response) API. Support for Node.js web servers will be implemented _soon_.
+It currently only works with Bun but might work with Deno since it uses the web platform [Request](https://developer.mozilla.org/en-US/docs/Web/API/Request)/[Response](https://developer.mozilla.org/en-US/docs/Web/API/Response) API. Support for Node.js web servers will be implemented _soon_.
 
 ## Installation
 
