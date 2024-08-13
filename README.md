@@ -94,6 +94,8 @@ You can find a working example at [pmbanugo/midas-cache-examples](https://github
 
 The following data is the result of the benchmark.
 
+![Screenshot of the benchmark measurement](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vwsewy0emea1tpszbr72.png)
+
 Using local SQLite + remote Turso DB
 
 ```sh
